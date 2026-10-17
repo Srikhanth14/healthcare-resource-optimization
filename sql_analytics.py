@@ -1,4 +1,3 @@
-
 from pathlib import Path
 import sqlite3
 
@@ -242,9 +241,9 @@ def apply_sql_styles():
         f"""
         <style>
         .sql-banner {{
-            background: linear-gradient(
-                110deg, {DEEP_NAVY}, #174866
-            );
+                    background: linear-gradient(
+                    110deg, #038387, #026573
+        );
             padding: 23px 25px;
             border-radius: 14px;
             margin-bottom: 22px;
