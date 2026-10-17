@@ -256,13 +256,13 @@ def apply_sql_styles():
         }}
 
         .sql-banner h2 {{
-            color: white;
+            color: #102B46;
             margin: 0 0 8px 0;
             font-size: 25px;
         }}
 
         .sql-banner p {{
-            color: #DCE8F1;
+            color: #607994;
             margin: 0;
             font-size: 14px;
         }}
