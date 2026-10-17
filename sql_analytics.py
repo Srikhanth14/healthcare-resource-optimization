@@ -241,11 +241,18 @@ def apply_sql_styles():
         f"""
         <style>
           .sql-banner {{
-            background: #D9EAEF;
-            padding: 23px 25px;
-            border-radius: 14px;
-            margin-bottom: 22px;
-            color: white;
+            background: linear-gradient(
+                115deg,
+                #E5F4FA 0%,
+                #F8FBFF 55%,
+                #DDF6F2 100%
+            );
+            border: 1px solid #DDEAF4;
+            border-radius: 18px;
+            padding: 26px 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 5px 20px rgba(16,43,70,0.025);
+            color: #102B46;
         }}
 
         .sql-banner h2 {{
