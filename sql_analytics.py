@@ -240,10 +240,8 @@ def apply_sql_styles():
     st.markdown(
         f"""
         <style>
-         .sql-banner {{
-            background: linear-gradient(
-                110deg, #038387, #026573
-            );
+          .sql-banner {{
+            background: #038387;
             padding: 23px 25px;
             border-radius: 14px;
             margin-bottom: 22px;
