@@ -259,6 +259,7 @@ def apply_sql_styles():
             color: #102B46;
             margin: 0 0 8px 0;
             font-size: 30px;
+            font-weight: 800;
         }}
 
         .sql-banner p {{
