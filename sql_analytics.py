@@ -241,7 +241,7 @@ def apply_sql_styles():
         f"""
         <style>
           .sql-banner {{
-            background: #EAF4F6;
+            background: #D9EAEF;
             padding: 23px 25px;
             border-radius: 14px;
             margin-bottom: 22px;
